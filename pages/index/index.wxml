@@ -1,13 +1,17 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+    <view wx:if="{{!hasUserInfo&&canIUse}}" id="declaration" >
+        <image class="icon" src="/assets/medicine.png"/>
+        <text class="title"> 我们需要您的授权 </text>
+        <text class="content"> 我们需要使用您的头像和名称. 根据我们的隐私协议, 您所有的隐私数据都会用于小程序内部UI界面, 我们不会上传或使用您的个人信息用于其他用途. </text>
+        <button class="accept_button" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 接受 </button>
+    </view>
+
+    <view wx:else id="userInfo">
+        <image class="avatar" src="{{userInfo.avatarUrl}}" mode="cover"/>
+        <text class="nickname">{{userInfo.nickName}}</text>
+        <button class="accept_button" bindtap="bindViewTap"> 进入 </button>
+    </view>
+
 </view>

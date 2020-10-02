@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/advice/advice",
+    "pages/record/record"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -9,6 +10,24 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+        {
+            "pagePath": "pages/advice/advice",
+            "text": "医学建议",
+            "iconPath": "assets/advice.png",
+            "selectedIconPath": "assets/advice_selected.png"
+        },
+        {
+            "pagePath": "pages/record/record",
+            "text": "购药记录",
+            "iconPath": "assets/pills.png",
+            "selectedIconPath": "assets/pills_selected.png"
+        }
+      ]
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
+

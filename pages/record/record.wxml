@@ -1,0 +1,24 @@
+<!--record.wxml-->
+<view class="container">
+    <view class="section" id="user_infor">
+        <image class="subsection" id="avatar" src="{{user.avatarUrl}}"/>
+        <view class="subsection" id="texts"> 
+            <text>用户名: {{user.nickName}} </text>
+            <text>购买量: {{records.length}} </text>
+        </view>
+    </view> 
+
+    <view class="section" id="medicines"> 
+        <view class="record" wx:for="{{records}}"> 
+            <image class="picture" src="/assets/types/{{item.type}}.png"/>
+            <view class="texts"> 
+                <text class="name">{{item.name}}</text>
+                <text class="count">{{item.count}}</text>
+            </view>
+            
+        </view>
+    </view>
+
+    
+
+</view>
