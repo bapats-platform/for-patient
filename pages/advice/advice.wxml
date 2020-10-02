@@ -1,2 +1,17 @@
 <!--pages/new/advice.wxml-->
-<text>pages/new/advice.wxml</text>
+<view class="container">
+    <view id="message_area"> 
+        <view class="message" wx:for="{{messages}}">
+            <view class="{{item.type}}">
+                <image class="avatar" src="{{paths[item.type]}}"/>
+                <text class="content"> {{item.txt}} </text>
+            </view>
+        </view>
+    </view>
+
+    <view id="input_area">
+        <input class="inner" bindinput="onInputChange" value="{{input}}"/>
+        <button class="inner" bindtap="onTapSend"> 发送 </button>
+    </view>
+    
+</view>

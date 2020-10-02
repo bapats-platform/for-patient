@@ -1,1 +1,92 @@
 /* pages/new/advice.wxss */
+.container{
+    background: #f2f2f2;
+}
+
+#message_area{
+    padding: 10rpx;
+    width: 750rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.message{
+    width: 100%;
+    height: fit-content;
+}
+.avatar{
+    margin: 20rpx;
+    width: 100rpx;
+    height: 100rpx;
+}
+.content {
+    margin: 40rpx;
+    padding: 20rpx;
+    width: fit-content;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+}
+.doctor{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.patient{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+}
+.doctor>.content{
+    margin-right: 140rpx;
+}
+.patient>.content{
+    margin-left: 140rpx;
+}
+.content:after {
+    content: '';
+    width: 20rpx;
+    height: 20rpx;
+    position: absolute;
+    transform: rotate(-45deg);
+    background-color: white;
+}
+.doctor>.content:after{
+    top: 30rpx;
+    left: -10rpx;
+}
+.patient>.content:after{
+    top: 30rpx;
+    right: -10rpx;
+}
+
+#input_area{
+    position: fixed;
+    bottom: 0rpx;
+    display: flex;
+    height: fit-content; 
+    width: 750rpx;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+}
+#input_area>.inner{
+    margin: 20rpx;
+}
+#input_area>input{
+    height: 78rpx;
+    line-height: 78rpx;
+    font-size: 30rpx;
+    width: 450rpx;
+    border: 1rpx solid grey; 
+    border-radius: 10rpx;
+    padding: 0rpx 15rpx 0rpx 15rpx;
+}
+#input_area>button{
+    height: 78rpx;
+    background-color:#78bc58;
+    color: #ffff;
+    width: fit-content;
+}

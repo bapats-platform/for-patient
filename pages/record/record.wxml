@@ -15,10 +15,6 @@
                 <text class="name">{{item.name}}</text>
                 <text class="count">{{item.count}}</text>
             </view>
-            
         </view>
     </view>
-
-    
-
 </view>
