@@ -15,14 +15,16 @@
     height: fit-content;
 }
 .avatar{
-    margin: 20rpx;
+    margin: 30rpx;
     width: 100rpx;
     height: 100rpx;
 }
 .content {
-    margin: 40rpx;
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 20rpx;
-    width: fit-content;
+    max-width: 390rpx;
+    height: fit-content;
     font-size: 30rpx;
     line-height: 50rpx;
     position: relative;

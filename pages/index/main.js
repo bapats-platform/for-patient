@@ -7,7 +7,7 @@ Page({
         canIUse: wx.canIUse('button.open-type.getUserInfo')
     },
     bindViewTap: function(ev) {
-        wx.switchTab({url: '../advice/advice'});
+        wx.switchTab({url: '../advice/main'});
     },
     getUserInfo: function(e) {
         app.globalData.userInfo = e.detail.userInfo;
