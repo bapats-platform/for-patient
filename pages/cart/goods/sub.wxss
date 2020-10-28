@@ -1,0 +1,47 @@
+/* pages/cart/goods/goods.wxss */
+.container{
+    min-height: 100%;
+    height: fit-content;
+    display: list-item;
+    align-items: center;
+}
+
+.container>view{
+    margin: 20rpx 0rpx 20rpx 0rpx;
+}
+
+.demo{
+    width: 750rpx;
+    height: 320rpx; 
+    background-color: white;
+}
+.demo>image{
+	width: 480rpx;
+    height: 320rpx;
+    margin-left: 135rpx;
+}
+
+.basic{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.basic>.infor{
+    font-size: 48rpx;
+    font-weight: 600;
+}
+
+.basic>.price{
+    color: red;
+    font-size: 36rpx;
+}
+
+.advance{
+    display: flex;
+    flex-direction: column;
+    padding: 40rpx;
+}
+
+
+

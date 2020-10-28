@@ -1,1 +1,69 @@
 /* pages/cart/cart.wxss */
+.container{
+    background: #f2f2f2;
+    min-height: 100%;
+    height: fit-content;
+    display: list-item; 
+}
+
+#search{
+    padding: 10rpx;
+    align-items: center;
+    height: 80rpx;
+    width: 750rpx;
+    display: flex;
+    flex-direction: row;
+}
+
+#search>.inner{
+    height: 100%;
+    margin: 10rpx;
+}
+
+#search>input{
+    width: 70%;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+    background: white;
+ }
+
+#search>button{
+    width: 25%;
+    color: #ffff;
+    background:#78bc58;
+}
+
+#shelf>.goods{
+    height: 500rpx;
+    width: 750rpx;
+    display: flex;
+    flex-direction: row;
+}
+#shelf>.goods{
+    height: 300rpx;
+    width: 750rpx;
+    display: flex;
+    flex-direction: row;
+    margin: 10rpx;
+    background-color: white;
+}
+#shelf>.goods>.pic{
+    height: 280rpx;
+    width: 300rpx;
+}
+#shelf>.goods>.info{
+    height: 280rpx;
+    width: 450rpx;
+    padding: 20rpx;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+#shelf>.goods>.info>text{
+    line-height: 120rpx;
+}
+
+modal_content{
+    display: flew; 
+    flex-direction: column;
+}

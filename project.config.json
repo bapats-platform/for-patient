@@ -1,95 +1,103 @@
 {
-  "description": "Project configuration file",
-  "packOptions": {
-    "ignore": []
-  },
-  "setting": {
-    "urlCheck": true,
-    "es6": true,
-    "enhance": false,
-    "postcss": true,
-    "preloadBackgroundData": false,
-    "minified": true,
-    "newFeature": false,
-    "coverView": true,
-    "nodeModules": false,
-    "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": false,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
-    "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
+    "description": "Project configuration file",
+    "packOptions": {
+        "ignore": []
     },
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
-    "packNpmManually": false,
-    "packNpmRelationList": []
-  },
-  "compileType": "miniprogram",
-  "libVersion": "2.13.1",
-  "appid": "wxb419e9ba42410d5d",
-  "projectname": "BAPATS",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "scripts": {},
-  "isGameTourist": false,
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
-  "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "plugin": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "current": -1,
-      "list": []
-    },
-    "gamePlugin": {
-      "current": -1,
-      "list": []
-    },
-    "miniprogram": {
-      "current": -1,
-      "list": [
-        {
-          "id": -1,
-          "name": "pages/record/record",
-          "pathName": "pages/record/record",
-          "query": "",
-          "scene": null
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "enhance": false,
+        "postcss": true,
+        "preloadBackgroundData": false,
+        "minified": true,
+        "newFeature": false,
+        "coverView": true,
+        "nodeModules": false,
+        "autoAudits": false,
+        "showShadowRootInWxmlPanel": true,
+        "scopeDataCheck": false,
+        "uglifyFileName": false,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "compileHotReLoad": false,
+        "useMultiFrameRuntime": false,
+        "useApiHook": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
         },
-        {
-          "id": -1,
-          "name": "pages/advice/advice",
-          "pathName": "pages/advice/advice",
-          "query": "",
-          "scene": null
+        "useIsolateContext": true,
+        "useCompilerModule": true,
+        "userConfirmedUseCompilerModuleSwitch": false,
+        "packNpmManually": false,
+        "packNpmRelationList": []
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.13.1",
+    "appid": "wxb419e9ba42410d5d",
+    "projectname": "BAPATS",
+    "debugOptions": {
+        "hidedInDevtools": []
+    },
+    "scripts": {},
+    "isGameTourist": false,
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "search": {
+            "current": -1,
+            "list": []
         },
-        {
-          "id": -1,
-          "name": "pages/prescription/main",
-          "pathName": "pages/prescription/main",
-          "scene": null
+        "conversation": {
+            "current": -1,
+            "list": []
+        },
+        "plugin": {
+            "current": -1,
+            "list": []
+        },
+        "game": {
+            "current": -1,
+            "list": []
+        },
+        "gamePlugin": {
+            "current": -1,
+            "list": []
+        },
+        "miniprogram": {
+            "current": -1,
+            "list": [
+                {
+                    "id": -1,
+                    "name": "pages/record/record",
+                    "pathName": "pages/record/record",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/advice/advice",
+                    "pathName": "pages/advice/advice",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/cart/main",
+                    "pathName": "pages/cart/main",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "id": -1,
+                    "name": "pages/cart/goods/sub",
+                    "pathName": "pages/cart/goods/sub",
+                    "query": "json= {\"branch\":\"强必林\",\"name\":\"阿莫西林\",\"type\":\"胶囊\",\"quantity\":\"0.25g*24粒\",\"price\":\"9.00\",\"symptoms\":\"下呼吸系统感染, 下呼吸道感染, 上呼吸道感染, 皮肤软组织感染, 咽炎, 伤寒, 鼻窦炎, 淋病\",\"usage\":\"口服。成人一次0.5g/2粒 ,每6~8小时1次，一日剂量不超过4g (16粒)。小儿一日剂量按体重20~40mg/kg，每8小时1次;3个月以下婴儿一日剂量按体重30mg/kg，每12小时1次。肾功能严重损害患者需调整给药剂量，其中内生肌酐清除率为10~30ml/分钟的患者每12小时0.25~0.5g(1~2粒)...详见说明书。\"}",
+                    "scene": null
+                }
+            ]
         }
-      ]
     }
-  }
 }
