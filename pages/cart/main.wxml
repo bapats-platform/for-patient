@@ -7,7 +7,7 @@
 
     <view id="shelf"> 
         <view class="goods" wx:for="{{filtered}}" bindtap="onGoodsTap" data-index="{{index}}"> 
-            <image class="pic" src="/assets/goods/{{item.name}}.jpg"/>
+            <image class="pic" src="/assets/goods/{{item.eng}}.jpg"/>
             <view class="info"> 
                 <text class="title">{{item.name}} ({{item.branch}}) </text>
                 <text class="price">{{item.price}}元 ({{item.quantity}})</text>

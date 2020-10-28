@@ -1,7 +1,7 @@
 <!--pages/cart/goods/sub-->
 <view class="container" wx:if="{{goods}}">
     <view class="demo">
-        <image src="/assets/goods/{{goods.name}}.jpg"/>
+        <image src="/assets/goods/{{goods.eng}}.jpg"/>
     </view>
     <view class="basic"> 
         <text class="infor">💊{{goods.name}}{{goods.type}}({{goods.branch}})</text>

@@ -11,6 +11,7 @@ Page({
       {
         branch: "强必林", 
         name: "阿莫西林", 
+        eng: "Amoxicillin",
         type: "胶囊", 
         quantity: "0.25g*24粒", 
         price: "9.00", 
@@ -20,6 +21,7 @@ Page({
       {
         branch: "东鲁堂", 
         name: "二甲双胍格列本脲", 
+        eng: "MetforminHydrochlorideandGlibenclamideTablets",
         type: "胶囊", 
         quantity: "0.25g*24粒", 
         price: "7.00",
@@ -29,6 +31,7 @@ Page({
       {
         branch: "先强严灵", 
         name: "头孢克肟", 
+        eng: "Cefixime",
         type: "分散片", 
         quantity: "0.1g*8片", 
         price: " 30.70",
@@ -38,6 +41,7 @@ Page({
       {
         branch: "泰瑞特", 
         name: "苯丙醇", 
+        eng:"Phenylpropanol",
         type: "软胶囊", 
         quantity: "0.1g*100粒", 
         price: "25.00",
@@ -47,6 +51,7 @@ Page({
       {
         branch: "上海信谊", 
         name: "盐酸美西律", 
+        eng:"MexiletineHydrochloride",
         type: "片剂", 
         quantity: "0.5mg*100片", 
         price: "29.00",
@@ -56,6 +61,7 @@ Page({
       {
         branch: "赛治", 
         name: "甲巯咪唑", 
+        eng:"Thiamazole",
         type: "片剂", 
         quantity: "0.1g*50片", 
         price: "32.00",
@@ -65,6 +71,7 @@ Page({
       {
         branch: "欧意", 
         name: "诺氟沙星", 
+        eng:"Norfloxacin",
         type: "胶囊", 
         quantity: "0.1g*24粒", 
         price: "8.90",
@@ -74,6 +81,7 @@ Page({
       {
         branch: "老拨云堂", 
         name: "加替沙星", 
+        eng:"Gatifloxacin",
         type: "滴眼液", 
         quantity: "5ml*1支", 
         price: "17.30",
