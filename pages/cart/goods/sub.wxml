@@ -1,0 +1,15 @@
+<!--pages/cart/goods/sub-->
+<view class="container" wx:if="{{goods}}">
+    <view class="demo">
+        <image src="/assets/goods/{{goods.name}}.jpg"/>
+    </view>
+    <view class="basic"> 
+        <text class="infor">💊{{goods.name}}{{goods.type}}({{goods.branch}})</text>
+        <text class="price"> 💰{{goods.price}}元({{goods.quantity}})</text>
+    </view>
+    <view class="advance"> 
+        <text class="symptoms">😷应对症状: {{goods.symptoms}}</text>
+        <text class="usage">💬使用方法: {{goods.usage}}</text>
+    </view>
+    <button bindtap="onCartTap"> 🛒确认购买 </button>
+</view>

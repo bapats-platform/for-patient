@@ -28,7 +28,6 @@ Page({
         this.setData({input: e.detail.value});
     },
     onTapSend: function(){
-<<<<<<< Updated upstream:pages/advice/main.js
 
         function get_advice_from(symptoms){
             let medicines = {
@@ -67,12 +66,5 @@ Page({
         let advices = `你好, 我们提供给您的建议如下: \n${get_advice_from(pat_input)}`; 
         new_msg.push({type: "doctor", txt: advices});
         this.setData({messages: new_msg});
-=======
-        let new_msg = this.data.messages.slice(0);
-        new_msg.push({type: "patient", txt: this.data.input});
-        this.setData({messages: new_msg, input: ""});
-        new_msg.push({type: "doctor", txt: "打一顿就好了"});
-        this.setData({messages: new_msg, input: ""});
->>>>>>> Stashed changes:pages/advice/advice.js
     }
 })

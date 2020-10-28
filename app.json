@@ -1,46 +1,47 @@
 {
-  "pages": [
-    "pages/index/main",
-    "pages/advice/main",
-    "pages/record/main",
-    "pages/cart/main",
-    "pages/prescription/main"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "position": "bottom",
-    "list": [
-      {
-        "pagePath": "pages/advice/main",
-        "text": "医学建议",
-        "iconPath": "assets/advice.png",
-        "selectedIconPath": "assets/advice_selected.png"
-      },
-      {
-        "pagePath": "pages/record/main",
-        "text": "购药记录",
-        "iconPath": "assets/pills.png",
-        "selectedIconPath": "assets/pills_selected.png"
-      },
-      {
-        "pagePath": "pages/prescription/main",
-        "text": "当前药方",
-        "iconPath": "assets/prescription.png",
-        "selectedIconPath": "assets/prescription_selected.png"
-      },
-      {
-        "pagePath": "pages/cart/main",
-        "text": "在线购买",
-        "iconPath": "assets/cart.png",
-        "selectedIconPath": "assets/cart_selected.png"
-      }
-    ]
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/main",
+        "pages/advice/main",
+        "pages/record/main",
+        "pages/cart/main",
+        "pages/prescription/main",
+        "pages/cart/goods/sub"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/advice/main",
+                "text": "医学建议",
+                "iconPath": "assets/advice.png",
+                "selectedIconPath": "assets/advice_selected.png"
+            },
+            {
+                "pagePath": "pages/record/main",
+                "text": "购药记录",
+                "iconPath": "assets/pills.png",
+                "selectedIconPath": "assets/pills_selected.png"
+            },
+            {
+                "pagePath": "pages/prescription/main",
+                "text": "当前药方",
+                "iconPath": "assets/prescription.png",
+                "selectedIconPath": "assets/prescription_selected.png"
+            },
+            {
+                "pagePath": "pages/cart/main",
+                "text": "在线购买",
+                "iconPath": "assets/cart.png",
+                "selectedIconPath": "assets/cart_selected.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }
