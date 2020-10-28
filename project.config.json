@@ -80,6 +80,13 @@
           "id": -1,
           "name": "pages/advice/advice",
           "pathName": "pages/advice/advice",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/prescription/main",
+          "pathName": "pages/prescription/main",
           "scene": null
         }
       ]

@@ -1,6 +1,8 @@
 /* pages/new/advice.wxss */
 .container{
     background: #f2f2f2;
+    min-height: 100%;
+    height: fit-content;
 }
 
 #message_area{

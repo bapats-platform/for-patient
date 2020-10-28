@@ -22,12 +22,6 @@
         "selectedIconPath": "assets/advice_selected.png"
       },
       {
-        "pagePath": "pages/record/main",
-        "text": "购药记录",
-        "iconPath": "assets/pills.png",
-        "selectedIconPath": "assets/pills_selected.png"
-      },
-      {
         "pagePath": "pages/prescription/main",
         "text": "当前药方",
         "iconPath": "assets/prescription.png",

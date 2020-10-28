@@ -1,2 +1,20 @@
-<!--pages/prescription.wxml-->
-<text>pages/prescription.wxml</text>
+<!--record.wxml-->
+<view class="container">
+    <view class="section" id="user_infor">
+        <image class="subsection" id="avatar" src="{{user.avatarUrl}}"/>
+        <view class="subsection" id="texts"> 
+            <text>用户名: {{user.nickName}} </text>
+            <text>药方量: {{records.length}} </text>
+        </view>
+    </view> 
+
+    <view class="section" id="medicines"> 
+        <view class="record" wx:for="{{records}}" data-index ="{{index}}" bindtap="onTapPrescription"> 
+            <image class="picture" src="/assets/types/pres_title.png"/>
+            <view class="texts"> 
+                <text class="name">{{item.hospital}}</text>
+                <text class="count">{{item.date}}</text>
+            </view>
+        </view>
+    </view>
+</view>
